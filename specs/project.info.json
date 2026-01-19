@@ -1,0 +1,16 @@
+{
+  "projectName": "Cron-Task-Master",
+  "category": "System Automation",
+  "author": "Senin Adın Soyadın",
+  "version": "1.0.0",
+  "description": "Gelişmiş zamanlanmış görev ve yedekleme yönetim sistemi",
+  "features": [
+    "Otomatik dizin yedekleme",
+    "Crontab hata denetimi",
+    "İşlem logları yönetimi"
+  ],
+  "requirements": {
+    "os": "Ubuntu 22.04",
+    "language": "Python 3.10"
+  }
+}
