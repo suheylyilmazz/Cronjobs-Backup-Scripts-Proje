@@ -1,1 +1,1 @@
-# Research Result for gemini-fast
+Bu projede Linux tabanlı sistemlerde verimliliği artırmak için zamanlanmış görevlerin (Cron) otomatikleştirilmesi hedeflenmiştir. Python subprocess yapısı kullanılarak sistem komutları güvenli bir şekilde tetiklenecektir.
