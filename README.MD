@@ -16,3 +16,8 @@ Bu proje, **Açık Kaynak İşletim Sistemleri** dersi final projesi kapsamında
 
 ## 🚀 Kullanım
 Proje, Linux tabanlı sistemlerde Python 3.10 ve üzeri sürümlerde çalışacak şekilde optimize edilmiştir.
+
+## 🛠️ Teknik Notlar 
+- **I/O Yönetimi:** Betik, işlem çıktılarını `stdout` üzerinden, hataları ise `stderr` üzerinden anlık olarak raporlar.
+- **Güvenlik:** `subprocess.run` kullanımı sırasında `shell=False` prensibi korunarak komut enjeksiyonu riskleri önlenmiştir.
+- **Otomasyon:** Sistemde `crontab` kurulu değilse betik kullanıcıyı uyararak işlemi durdurur (Self-check).
